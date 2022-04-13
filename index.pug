@@ -1,0 +1,217 @@
+doctype html
+html(lang='en')
+    include includes/head
+    body
+        .all
+            include includes/header
+
+            section.adaptive
+                .container
+                    .adaptive-all
+                        .adaptive-all__nav
+                            ul
+                                li
+                                    a(href="#") HOME
+                                li
+                                    a(href="#") OUR PRODUCTS
+                                li
+                                    a(href="#") BLOG
+                                li
+                                    a(href="#") ABOUT
+                                li
+                                    a(href="#") CONTACT
+                                li
+                                    a(href="#") STYLEGUIDE
+
+            // Promo
+            section.promo
+                .container
+                    .promo-all.d-flex.flex-column.justify-content-center.align-items-center
+                        .promo-all__subtitle Best place to buy design
+                        .promo-all__title Coffee Mugs
+                        .promo-all__desc The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
+                        .promo-all__button
+                            a(href="#") Explore Our Products
+            // /Promo
+
+            // Coffee
+            section.coffee
+                .container
+                    .coffee-all
+                        .coffee-all__text
+                            .title Even the all-powerful Pointing has no control about the blind texts.
+                            .subtitle.
+                                It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
+                                Even the all-powerful Pointing has no control about the blind texts it is an almost 
+                                unorthographic life One day however a small line of blind text by the name of Lorem Ipsum 
+                                decided to leave for the far World of Grammar.
+                            .button
+                                a(href="#") Read the full Story
+                        .coffee-all__mugs
+                            .title
+                                .line
+                                span Featured Mugs
+                                .line
+                            .row.mugs-content
+                                .col-sm-6.mugs-item
+                                    .mugs-item__img
+                                        img(src="img/coffee1.png")
+                                    .mugs-item__caption Pink Premium Ceramic
+                                    .mugs-item__price $ 99.00 USD
+
+                                .col-sm-6.mugs-item
+                                    .mugs-item__img
+                                        img(src="img/coffee2.png")
+                                    .mugs-item__caption Golden Designers Mug
+                                    .mugs-item__price
+                                        span $50.00
+                                        span $ 69.00 USD
+
+                        .coffee-all__products
+                            .title
+                                .line
+                                span More Products
+                                .line
+                            .row.products-content
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products1.png")
+                                    .products-item__caption Red Love Cup
+                                    .products-item__price
+                                        span $25.00
+                                        span $ 37.00 USD
+
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products2.png")
+                                    .products-item__caption Black Tea Cup
+                                    .products-item__price
+                                        span $15.00
+                                        span $ 29.00 USD
+
+                                .col-sm-12.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products3.png")
+                                    .products-item__caption B&W Essentials Mug
+                                    .products-item__price $ 19.00 USD
+                                        
+
+                            .row.products-content
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products4.png")
+                                    .products-item__caption Winter Style Mug
+                                    .products-item__price $ 25.00 USD
+
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products5.png")
+                                    .products-item__caption Ceramic Tea
+                                    .products-item__price $ 46.00 USD
+
+                                .col-sm-12.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products6.png")
+                                    .products-item__caption No Handle Bar Cup
+                                    .products-item__price $ 34.00 USD
+
+
+                            .row.products-content
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products7.png")
+                                    .products-item__caption Espresso Cup by Mugs.co
+                                    .products-item__price $ 25.00 USD
+
+                                .col-sm-6.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products8.png")
+                                    .products-item__caption Pink Premium Ceramic
+                                    .products-item__price $ 99.00 USD
+
+                                .col-sm-12.col-md-4.products-item
+                                    .products-item__img
+                                        img(src="img/products9.png")
+                                    .products-item__caption Summer Designer Cup
+                                    .products-item__price $ 29.00 USD
+
+
+                        .coffee-all__magazine
+                            .title
+                                .line
+                                span Buy 2 mugs and get a coffee magazine free
+                                .line
+                            .row.magazine-content
+                                .col-md-6.magazine-content__left
+                                    .col-sm-7
+                                        img(src="img/magazine1.png")
+                                    .col-sm-5
+                                        img(src="img/magazine2.png")
+                                        img(src="img/magazine3.png")
+                                .col-md-6.magazine-content__right
+                                    .subtitle Premium Offer
+                                    .caption Get our Coffee Magazine
+                                    .text The most versatile furniture system ever created. Designed to fit your life.
+                                    .button
+                                        a(href="#") Start Shopping
+
+            // /Coffee
+
+
+            //Banner
+            section.banner
+                img(src="img/banner.png")
+            // /Banner
+
+
+            //Stories
+            section.stories
+                .container
+                    .stories-all
+                        .stories-all__title
+                            .line
+                            span Behind the mugs, lifestyle stories
+                            .line
+                        .row.stories-all__content
+                            .col-sm-6.col-md-4.stories-item
+                                .stories-item__img
+                                    img(src="img/stories1.png", alt="")
+                                .stories-item__title Health Check: why do I get a headache when I haven’t had my coffee?
+                                .stories-item__text It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                .stories-item__date October 9, 2018
+
+                            .col-sm-6.col-md-4.stories-item 
+                                .stories-item__img
+                                    img(src="img/stories2.png", alt="")
+                                .stories-item__title How long does a cup of coffee keep you awake?
+                                .stories-item__text It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.
+                                .stories-item__date October 9, 2018
+
+                            .col-sm-6.col-md-4.stories-item 
+                                .stories-item__img
+                                    img(src="img/stories3.png", alt="")
+                                .stories-item__title Recent research suggests that heavy coffee drinkers may reap health benefits.
+                                .stories-item__text It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                .stories-item__date October 9, 2018
+            // /Stories
+
+
+            //Subscribe
+            section.subscribe
+                .container
+                    .subscribe-all
+                        .subscribe-all__title
+                            .line
+                            span Sign up and get free coffee bags
+                            .line
+                        .subscribe-all__caption Coffee Updates
+                        .subscribe-all__form
+                            form(action="")
+                                input(type="email", placeholder="customer @coffestyle.io")
+                                input(type="submit", value="subscribe")
+            // /Subscribe
+
+
+            include includes/footer
+
+    include includes/scripts
